@@ -6,8 +6,8 @@
       "apiLocation": "api",
       "outputLocation": "dist",
       "appBuildCommand": "yarn build",
-      "run": "yarn dev",
-      "appDevserverUrl": "http://localhost:3000"
+      "apiBuildCommand": "npm run build --if-present",
+      "env": "production"
     }
   }
 }
